@@ -1,0 +1,89 @@
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contenedor-grid-dos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.tarjeta-grande-grid{
+    grid-column: span 3;
+    grid-row: span 2;
+    background: #ffffff00;
+    border-radius: 30px;
+    border: #BFBFBF 0.1rem solid;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+}
+.tarjeta-grande-grid-dos{
+    grid-column: span 4;
+    grid-row: span 2;
+    background: #ffffff00;
+    border-radius: 30px;
+    border: #BFBFBF 0.1rem solid;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.tarjeta-ubicacion-dos{
+    grid-column: 6 / 2 span;
+    grid-row: 2 / 1 span;
+}
+.tarjeta-larga-grid{
+
+    height: 200px;
+    grid-column: span 4;
+    background: #fff;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    padding: 25px;
+    text-align: center;
+
+}
+.tarjeta-chica-grid{
+
+    grid-row: span 1;
+    grid-column: span 2;
+    background: #fff;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    padding: 25px;
+    text-align: center;
+}
+
+.tarjeta-mini-grid{
+
+    grid-row: span 1;
+    grid-column: span 1;
+    background: #8c8c8c3b;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    padding: 25px;
+    text-align: center;
+}
+
+.tarjeta-mini-grid-naranja{
+
+    grid-row: span 1;
+    grid-column: span 1;
+    background: #F2561D;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    padding: 25px;
+    text-align: center;
+}
+
+.contenedor-grid-dos h3 {
+
+    color: #BFBFBF;
+    padding-bottom: 10px;
+    font-weight: bold;
+}

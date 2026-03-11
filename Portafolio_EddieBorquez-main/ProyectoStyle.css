@@ -1,0 +1,117 @@
+.seccion-titulo-Proyecto{
+    text-align: start;
+    font-size: 300%;
+    background-color: #F2561D;
+    padding: 1%;
+    
+}
+.tarjeta-Proyecto{
+    background: #8c8c8c3b;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding-bottom: 3%;
+    text-align: justify;
+    border: #F2561D 0.15rem solid;
+
+}
+.tarjetas-contenedor-proyecto{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 30px;
+    align-items: center;
+    background-color: #F2561D;
+    margin-bottom: 50px;
+}
+
+.tarjetas-contenedor-proyecto h2 {
+    
+    font-size: 42px;
+    background-color: #f18159;
+    padding: 100px 20px 100px 20px;
+}
+.tarjeta-tipoBordeada-proyecto{
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.2rem solid;
+    padding: 25px;
+    text-align: center;
+    max-width: fit-content;
+
+}
+
+.imagen-interactiva {
+    transition: all 0.3s ease;
+}
+
+.imagen-interactiva:hover {
+    filter: hue-rotate(90deg);
+    transform: scale(1.1); 
+    background-color: white;
+    opacity: 0.8; 
+}
+.enlace-contenedor {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.enlace-contenedor:visited {
+  color: inherit;
+}
+.tarjeta-Proyecto h2 {
+    font-size: 32x;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #BFBFBF;
+}
+.tarjeta-Proyecto h3 {
+
+    padding-left: 25px;
+}
+.tarjeta-Proyecto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #bfbfbfef;  
+}
+
+.contenido-Proyecto{
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+}
+.tarjeta-gif{
+    height: 390px;
+    width: 720px;
+    border: #F2561D 0.15rem solid;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+li{
+    margin-top: 10px;
+    text-align: start;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 150px;
+  height: 200px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  transition: opacity 0.3s ease; /* Para un efecto suave */
+}
+.hidden {
+    display: none;
+}
+
+.elemento-a{
+
+    transform: translateY(100px);
+}
+.arreglo-a {
+  scroll-margin-top: 150px;
+}

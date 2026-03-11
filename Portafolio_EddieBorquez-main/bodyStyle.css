@@ -1,0 +1,109 @@
+body{
+
+    background-color: #0D0D0D;
+}
+
+section {
+    padding: 50px 40px;
+    max-width: 1600px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    margin: 0 10rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: fit-content;
+    
+}
+
+.seccion h3 {
+    margin-bottom: 30px;
+}
+.seccion-titulo{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 200%;
+}
+.tarjetas-contenedor{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.tarjeta{
+    background: #8C8C8C;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+.tarjeta-tipoBordeada{
+    background: #fff;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    padding: 25px;
+    text-align: center;
+    gap: 300px;
+    min-width: 1000px;
+
+}
+
+.tarjeta-invisible{
+    background: #ffffff00;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    padding: 300px 200px 300px 200px;
+    text-align: center;
+    max-width: 500px;
+
+}
+.tarjeta-invisible h1 {
+    color: #fff;
+}
+.tarjeta-miniTitulo{
+    margin-bottom: 30px;
+}
+
+.sobre-mi-texto{
+    justify-content: center;
+    text-align: justify;
+    line-height: 150%;
+}
+.sobre-mi-texto-dos{
+    justify-content: center;
+    text-align: center;
+    line-height: 150%;
+}
+
+.separador_body_negro{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    margin: 20px 0;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(left, rgba(255,255,255,0), rgba(0, 0, 0, 0.3), rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(left, rgba(255,255,255,0), rgba(0, 0, 0, 0.3), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(left, rgba(255,255,255,0), rgba(0, 0, 0, 0.3), rgba(255,255,255,0));
+    border: 0;
+}
+.grafico-imagen{
+    border-radius: 40%;   
+    width: 500px;
+    height: auto;
+}
+.tarjeta-imagenes{
+    height: auto;
+    width: 90px;
+}
+
+.tarjeta-imagenes-separacion{
+
+    margin-top: 10px;
+}
+.tarjeta-imagenes-separacion-dos{
+
+    margin-top: 20px;
+}
