@@ -44,20 +44,20 @@ header .header-contenedor{
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
-    padding: 100px 15px 300px;
+    padding: 100px 15px 250px;
     width: 100%;
 }
 
 header h1{
 
-    font-size: 72px;
+    font-size: 52px;
     margin-top: 20px;
 
 
 }
 .fotoPerfil{
     border-radius: 40%;   
-    width: 300px;
+    width: 250px;
     height: auto;
 
 }
@@ -92,5 +92,13 @@ header h1{
     border: 0;
 }
 
+.imagen-interactiva-header {
+    transition: all 0.3s ease;
+}
+
+.imagen-interactiva-header:hover {
+    transform: scale(1.2); 
+    opacity: 0.7; 
+}
 
 
